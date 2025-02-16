@@ -3,6 +3,9 @@ body {
     background-color: black;
     position: relative;
 }
+*{
+    box-sizing: border-box;
+}
 
 header {
     position: fixed;
@@ -400,6 +403,9 @@ form{
         position: unset;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
     }
     main,.left-side,.right-side{
         position: unset;
@@ -468,6 +474,26 @@ form{
     .cookieBanner button{
         font-size: 1em;
     }
-    
+    .testContainer{
+        flex-direction: column;
+        gap:20px;
+        padding-top: 5%;
+    }
+    .user-image{
+        margin-top: 30px;
+    }
+    .name{
+        width: max-content;
+    }
+    footer ul li{
+        font-size: larger;
+    }
+    footer{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .links{
+        gap:100px;
+    }
 }
 
